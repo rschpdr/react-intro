@@ -1,0 +1,26 @@
+.red-text {
+  color: red;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  align-items: center;
+}
+
+.comment img {
+  width: auto;
+  height: 100px;
+  padding: 1rem;
+}
+
+.comment h3 {
+  display: inline-block;
+  padding-right: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.comment p {
+  margin: 0;
+}
