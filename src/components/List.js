@@ -1,7 +1,7 @@
 import React from "react";
 import ListItem from "./ListItem";
 
-// Toda componente de classe (ou stateful) precisa ter o método render() para retornar JSX
+// Todo componente de classe (ou stateful) precisa ter o método render() para retornar JSX
 
 class List extends React.Component {
   state = {
@@ -10,9 +10,8 @@ class List extends React.Component {
   };
 
   // 1. Quando o usuário clicar no botão `Add`,
-  // 2. adicione a string contida no atribute value para a array fruits dentro do state
-
   handleClick = (event) => {
+    // 2. adicione a string contida no atributo value para a array fruits dentro do state
     this.setState({ fruits: [...this.state.fruits, this.state.value] });
     console.log(this.state);
   };
